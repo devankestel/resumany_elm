@@ -1,0 +1,8 @@
+var _user$project$Containers_Splash$sploosh = A2(
+	_elm_lang$html$Html$div,
+	{ctor: '[]'},
+	{
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Sploosh'),
+		_1: {ctor: '[]'}
+	});

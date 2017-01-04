@@ -1,7 +1,8 @@
-module Main exposing (..)
+module Containers.Splash exposing (..)
 
-import Html exposing (text)
+import Html exposing (..)
 
 
-main =
-    text "Hello from Splaaaaaaaaassssh."
+sploosh : Html msg
+sploosh =
+    div [] [ text "Sploosh" ]

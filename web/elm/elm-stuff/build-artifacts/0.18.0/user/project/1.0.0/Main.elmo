@@ -1,3 +1,11 @@
+var _user$project$Main$splash = A2(
+	_elm_lang$html$Html$div,
+	{ctor: '[]'},
+	{
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Splash'),
+		_1: {ctor: '[]'}
+	});
 var _user$project$Main$update = F2(
 	function (msg, model) {
 		var _p0 = msg;
@@ -53,7 +61,15 @@ var _user$project$Main$view = function (model) {
 							_0: _elm_lang$html$Html$text('+'),
 							_1: {ctor: '[]'}
 						}),
-					_1: {ctor: '[]'}
+					_1: {
+						ctor: '::',
+						_0: _user$project$Main$splash,
+						_1: {
+							ctor: '::',
+							_0: _user$project$Containers_Splash$sploosh,
+							_1: {ctor: '[]'}
+						}
+					}
 				}
 			}
 		});

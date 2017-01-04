@@ -2,6 +2,7 @@ module Main exposing (..)
 
 import Html exposing (..)
 import Html.Events exposing (onClick)
+import Containers.Splash as Splash
 
 
 main =
@@ -38,4 +39,11 @@ view model =
         [ button [ onClick Decrement ] [ text "-" ]
         , div [] [ text (toString model) ]
         , button [ onClick Increment ] [ text "+" ]
+        , splash
+        , Splash.sploosh
         ]
+
+
+splash : Html msg
+splash =
+    div [] [ text "Splash" ]
